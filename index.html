@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khenert’s Portfolio</title>
+
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Custom Styles -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex items-center justify-center text-white overflow-hidden font-[Poppins]">
+
+<div class="parallax-bg"></div>
+
+<div class="container grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8 w-[90%] max-w-[1200px] items-center">
+    
+    <!-- Profile -->
+    <div class="profile flex flex-col items-center gap-4">
+        <h1 class="overlay-title text-3xl font-bold bg-black/50 px-4 py-2 rounded-lg">I’m back</h1>
+        <div class="profile-pic"></div>
+        <p class="intro opacity-90 text-lg">Hi my name is Khenert</p>
+        <button class="change-bg-btn mt-2 px-5 py-2 rounded-lg font-medium" onclick="changeBackground()">Change Background</button>
+    </div>
+
+    <!-- Info Sections -->
+    <div class="info-grid grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="info-box expectations">
+            <h2 class="text-xl font-semibold">Expectations</h2>
+            <ul>
+                <li>Learn new web technologies</li>
+                <li>Improve coding skills</li>
+                <li>Build creative projects</li>
+            </ul>
+        </div>
+
+        <div class="info-box subject-expectations">
+            <h2 class="text-xl font-semibold">Subject Expectations</h2>
+            <ul>
+                <li>Master HTML, CSS, JavaScript</li>
+                <li>Understand responsive design</li>
+                <li>Work with APIs</li>
+            </ul>
+        </div>
+
+        <div class="info-box future-php">
+            <h2 class="text-xl font-semibold">Future PHP Projects</h2>
+            <ul>
+                <li>Blog platform</li>
+                <li>E-commerce website</li>
+                <li>Portfolio CMS</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
